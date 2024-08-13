@@ -18,16 +18,49 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.menu_bar:hover span:nth-child(1) {
+  transform: translateY(10px)rotate(42deg);
+}
+
+.menu_bar:hover span:nth-child(2) {
+  display: none;
+}
+
+.menu_bar:hover span:nth-child(3) {
+  transform: translateY(-16px)rotate(-42deg);
+}
+
+@media (max-width: 767px) {
+  .navb {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    min-height: 100vh;
+    bottom: 0px;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 7;
+    gap: 50px;
+  }
+}
+
+.open {
+  left: 0 !important;
+  transition: 400ms !important;
+  overflow: hidden !important;
 }
