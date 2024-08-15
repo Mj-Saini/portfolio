@@ -70,4 +70,29 @@ export const SpringBorder = () => {
   );
 };
 
+export const ServiceElp1 = () => {
+  return (
+  <svg width="141" height="241" viewBox="0 0 141 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_d_0_1487)">
+      <circle cx="20.3388" cy="99.3392" r="95.306" transform="rotate(-12.2351 20.3388 99.3392)" fill="url(#paint0_linear_0_1487)" shape-rendering="crispEdges" />
+    </g>
+    <defs>
+      <filter id="filter0_d_0_1487" x="-99.9873" y="0.0132446" width="240.652" height="240.652" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+        <feOffset dy="21" />
+        <feGaussianBlur stdDeviation="12.5" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0" />
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1487" />
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1487" result="shape" />
+      </filter>
+      <linearGradient id="paint0_linear_0_1487" x1="-28.6021" y1="28.5037" x2="62.8401" y2="181.766" gradientUnits="userSpaceOnUse">
+        <stop stop-opacity="0" />
+        <stop offset="1" stop-color="#05675E" />
+      </linearGradient>
+    </defs>
+  </svg>
 
+)
+}
