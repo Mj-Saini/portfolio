@@ -33,37 +33,34 @@ const Hero = () => {
                 <p className="text-center uppercase text-[#15FFEA] text-sm min-[850px]:text-base ">
                   Download cv
                 </p>
-                <span>
-                  {" "}
-                  <DownloadIcon />{" "}
-                </span>
+                <DownloadIcon />{" "}
               </button>
               <div className="flex max-sm:justify-center gap-2 lg:gap-5">
                 <a target="_blank" href="https://www.github.com/">
-                  <div className="border border-[#15FFEA] rounded-[50px] inline-block p-2 ">
+                  <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10">
                     <GithubIcon />
-                  </div>
+                  </span>
                 </a>
-                <a target="_blank" href="https://www.Youtube.com/">
-                  <div className="border border-[#15FFEA] rounded-[50px] inline-block p-2 ">
+                <a target="_blank" href="https://www.github.com/">
+                  <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10">
                     <YouTubeIcon />
-                  </div>
+                  </span>
                 </a>
-                <a target="_blank" href="https://www.twitter.com/">
-                  <div className="border border-[#15FFEA] rounded-[50px] inline-block p-2 ">
+                <a target="_blank" href="https://www.github.com/">
+                  <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10">
                     <TwitterIcon />
-                  </div>
+                  </span>
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/">
-                  <div className="border border-[#15FFEA] rounded-[50px] inline-block p-2 ">
+                <a target="_blank" href="https://www.github.com/">
+                  <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10">
                     <LinkdinIcon />
-                  </div>
+                  </span>
                 </a>
               </div>
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-            <div className=" after:absolute max-[400px]:w-[280px] max-[400px]:h-[280px] w-[360px] h-[360px] lg:w-[488px] lg:h-[488px] relative after:w-full after:h-full after:animate-spin after:duration-[20s]  rounded-[700px] after:rounded-[700px] after:border-[4px] after:border-dashed after:border-[#15FFEA] after:shadow-[-5px_5px_40px_0px_#15FFEA66] after:z-50 after:top-0 after:left-0 overflow-hidden">
+            <div className=" after:absolute max-[400px]:w-[280px] max-[400px]:h-[280px] w-[360px] h-[360px] lg:w-[488px] lg:h-[488px] relative after:w-full after:h-full after:animate-spin after:duration-[20s]  rounded-[700px] after:rounded-[700px] after:border-[4px] after:border-dashed after:border-[#15FFEA] after:shadow-[-5px_5px_40px_0px_#15FFEA66]  after:top-0 after:left-0 overflow-hidden">
               <Image
                 className=" w-[344px] h-[478px] object-cover object-center m-auto "
                 src={vikash_img}
