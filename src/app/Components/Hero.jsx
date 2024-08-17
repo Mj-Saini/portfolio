@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import vikash_img from '../../../public/assets/images/png/Vikash_img.png'
-import { DownloadIcon, GithubIcon, LinkdinIcon, TwitterIcon, YouTubeIcon } from "./Icon";
+import { DownloadIcon, GithubIcon, HeroSecElp, LinkdinIcon, TwitterIcon, YouTubeIcon } from "./Icon";
 import { HeroSecArr } from "./Helper";
 
 const Hero = () => {
   return (
     <div className="min-h-screen">
       <div className="  flex  ">
-        <div className="container max-w-[1140px] 2xl:max-w-[1550px] mx-auto px-5 flex-grow flex items-center">
+        <div className="container max-w-[1140px] 2xl:max-w-[1550px] mx-auto px-5 flex-grow flex items-center  ">
           <div className="flex flex-wrap items-center flex-col-reverse md:flex-row w-full">
             <div className="w-full mt-4 md:mt-0 md:w-1/2 text-center sm:text-start ">
               <div>
@@ -52,7 +52,11 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+            <div className="w-full md:w-1/2 flex justify-center md:justify-end relative">
+              <div className="absolute -left-4 -top-5 ">
+                <HeroSecElp />
+              </div>
+
               <div className=" after:absolute max-[400px]:w-[280px] max-[400px]:h-[280px] w-[360px] h-[360px] lg:w-[488px] lg:h-[488px] relative after:w-full after:h-full after:animate-spin after:duration-[20s]  rounded-[700px] after:rounded-[700px] after:border-[4px] after:border-dashed after:border-[#15FFEA] after:shadow-[-5px_5px_40px_0px_#15FFEA66] after:z-50 after:top-0 after:left-0 overflow-hidden">
                 <Image className=' w-[344px] h-[478px] object-cover object-center m-auto ' src={vikash_img} alt="img" />
               </div>

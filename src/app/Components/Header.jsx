@@ -28,19 +28,19 @@ const Header = () => {
                     <div className='w-9/12 min-[1130px]:w-7/12'>
                         <ol className='flex items-center gap-[35px] lg:gap-[50px] justify-end  '>
                             <li>
-                                <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA] ' href="">Home</a>
+                                <a className='text-base font-normal text-white relative after:absolute after:w-full after:h-[1px] after:rounded-[.5px] after:-bottom-2 after:left-0 after:bg-[#15ffea] after:text-[#15ffea] after:transition-all  ' href="">Home</a>
                             </li>
                             <li>
-                                <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA]  ' href="">Service</a>
+                                <a className='text-base font-normal text-white relative after:absolute after:w-full after:h-[1px] after:rounded-[.5px] after:-bottom-2 after:left-0 after:bg-[#15ffea] after:text-[#15ffea] after:transition-all   ' href="">Service</a>
                             </li>
                             <li>
-                                <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA]  ' href="">Resume</a>
+                                <a className='text-base font-normal text-white relative after:absolute after:w-full after:h-[1px] after:rounded-[.5px] after:-bottom-2 after:left-0 after:bg-[#15ffea]  after:transition-all hover:after:text-[#15ffea]   ' href="">Resume</a>
                             </li>
                             <li>
-                                <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA]  ' href="">Work</a>
+                                <a className='text-base font-normal text-white relative after:absolute after:w-full after:h-[1px] after:rounded-[.5px] after:-bottom-2 after:left-0 after:bg-[#15ffea] after:text-[#15ffea] after:transition-all   ' href="">Work</a>
                             </li>
                             <li>
-                                <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA]  ' href="">Contact</a>
+                                <a className='text-base font-normal text-white relative after:absolute after:w-full after:h-[1px] after:rounded-[.5px] after:-bottom-2 after:left-0 after:bg-[#15ffea] after:text-[#15ffea] after:transition-all   ' href="">Contact</a>
                             </li>
                             <li>
                                 <button className='text-base font-normal text-black    bg-[#15FFEA] p-[10px_20px] rounded-[50px] '>Hire me</button>
@@ -72,3 +72,25 @@ const Header = () => {
 }
 
 export default Header
+
+
+{/* <ol className='flex items-center gap-[35px] lg:gap-[50px] justify-end  '>
+<li>
+    <a className='text-base font-normal text-white relative after:absolute after:w-full after:h-1 after:bottom-0 after:left-0 after:bg-[#15ffea] after:text-[#15ffea] after:transition-all  ' href="">Home</a>
+</li>
+<li>
+    <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA]  ' href="">Service</a>
+</li>
+<li>
+    <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA]  ' href="">Resume</a>
+</li>
+<li>
+    <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA]  ' href="">Work</a>
+</li>
+<li>
+    <a className='text-base font-normal text-white hover:text-[#15FFEA] hover:border-b hover:border-[#15FFEA]  ' href="">Contact</a>
+</li>
+<li>
+    <button className='text-base font-normal text-black    bg-[#15FFEA] p-[10px_20px] rounded-[50px] '>Hire me</button>
+</li>
+</ol> */}
