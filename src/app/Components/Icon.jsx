@@ -49,8 +49,8 @@ export const TwitterIcon = () => {
 export const LinkdinIcon = () => {
   return (
     <svg
-      width="14"
-      height="14"
+      width="24"
+      height="24"
       viewBox="0 0 14 14"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -72,27 +72,86 @@ export const SpringBorder = () => {
 
 export const ServiceElp1 = () => {
   return (
-  <svg width="141" height="241" viewBox="0 0 141 241" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#filter0_d_0_1487)">
-      <circle cx="20.3388" cy="99.3392" r="95.306" transform="rotate(-12.2351 20.3388 99.3392)" fill="url(#paint0_linear_0_1487)" shape-rendering="crispEdges" />
-    </g>
-    <defs>
-      <filter id="filter0_d_0_1487" x="-99.9873" y="0.0132446" width="240.652" height="240.652" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-        <feOffset dy="21" />
-        <feGaussianBlur stdDeviation="12.5" />
-        <feComposite in2="hardAlpha" operator="out" />
-        <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0" />
-        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1487" />
-        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1487" result="shape" />
-      </filter>
-      <linearGradient id="paint0_linear_0_1487" x1="-28.6021" y1="28.5037" x2="62.8401" y2="181.766" gradientUnits="userSpaceOnUse">
-        <stop stop-opacity="0" />
-        <stop offset="1" stop-color="#05675E" />
-      </linearGradient>
-    </defs>
-  </svg>
+    <svg width="141" height="241" viewBox="0 0 141 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d_0_1487)">
+        <circle cx="20.3388" cy="99.3392" r="95.306" transform="rotate(-12.2351 20.3388 99.3392)" fill="url(#paint0_linear_0_1487)" shapeRendering="crispEdges" />
+      </g>
+      <defs>
+        <filter id="filter0_d_0_1487" x="-99.9873" y="0.0132446" width="240.652" height="240.652" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+          <feOffset dy="21" />
+          <feGaussianBlur stdDeviation="12.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0" />
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1487" />
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1487" result="shape" />
+        </filter>
+        <linearGradient id="paint0_linear_0_1487" x1="-28.6021" y1="28.5037" x2="62.8401" y2="181.766" gradientUnits="userSpaceOnUse">
+          <stop stopOpacity="0" />
+          <stop offset="1" stopColor="#05675E" />
+        </linearGradient>
+      </defs>
+    </svg>
 
-)
+  )
+}
+
+export const ServiceElp2 = () => {
+  return (
+    <svg width="210" height="241" viewBox="0 0 210 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d_0_1486)">
+        <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_0_1486)" shapeRendering="crispEdges" />
+      </g>
+      <defs>
+        <filter id="filter0_d_0_1486" x="0.0129395" y="0.0122681" width="240.652" height="240.652" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+          <feOffset dy="21" />
+          <feGaussianBlur stdDeviation="12.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0" />
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1486" />
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1486" result="shape" />
+        </filter>
+        <linearGradient id="paint0_linear_0_1486" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
+          <stop stopOpacity="0" />
+          <stop offset="1" stopColor="#05675E" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+export const HeroSecElp = () => {
+  return (
+    <svg width="145" height="145" viewBox="0 0 145 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d_0_1427)">
+        <circle cx="72.7519" cy="51.7515" r="46.8815" transform="rotate(-12.2351 72.7519 51.7515)" fill="url(#paint0_linear_0_1427)" shapeRendering="crispEdges" />
+      </g>
+      <defs>
+        <filter id="filter0_d_0_1427" x="0.860596" y="0.860229" width="143.782" height="143.782" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+          <feOffset dy="21" />
+          <feGaussianBlur stdDeviation="12.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0" />
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1427" />
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1427" result="shape" />
+        </filter>
+        <linearGradient id="paint0_linear_0_1427" x1="48.6776" y1="16.9071" x2="93.6585" y2="92.2976" gradientUnits="userSpaceOnUse">
+          <stop stopOpacity="0" />
+          <stop offset="1" stopColor="#05675E" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+  )
+}
+export const DownloadIcon = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM6 20C5.45 20 4.97933 19.8043 4.588 19.413C4.19667 19.0217 4.00067 18.5507 4 18V15H6V18H18V15H20V18C20 18.55 19.8043 19.021 19.413 19.413C19.0217 19.805 18.5507 20.0007 18 20H6Z" fill="#15FFEA" />
+    </svg>
+  )
 }

@@ -20,3 +20,22 @@ export const ServiceArr = [
         description: "Lorem ipsum dolor sit amet consectetur. At augue dignissim eu posuere non mi dictum lacus praesent. Aliquet elit r dolor."
     },
 ]
+
+export const HeroSecArr = [
+    {
+        numVal: "10",
+        text: "Years of experience"
+    },
+    {
+        numVal: "50",
+        text: "Projects Completed"
+    },
+    {
+        numVal: "7",
+        text: "Technologies Masterd"
+    },
+    {
+        numVal: "500",
+        text: "Code Commits"
+    },
+]

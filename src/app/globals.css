@@ -17,6 +17,10 @@ body {
   background: #000;
 }
 
+.heroHeight {
+  height:  calc(100vh-110px) !important;
+}
+
 .menu_bar:hover span:nth-child(1) {
   transform: translateY(10px)rotate(42deg);
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { SpringBorder } from './Icon'
+import { ServiceElp1, ServiceElp2, SpringBorder } from './Icon'
 import { ServiceArr } from './Helper'
 import astroImg from '../../../public/assets/images/png/astronaut_img.png'
 import Image from 'next/image'
@@ -9,12 +9,13 @@ const Service = () => {
         <div className='relative'>
             <div className='container max-w-[1140px] 2xl:max-w-[1550px] mx-auto px-5  py-12 lg:pt-[73px] lg:pb-10 '>
                 <div>
-                    <Image className='absolute top-[-10%] right-0 hidden lg:block ' src={astroImg} alt="img" />
-<div></div>
+                    <Image className='absolute top-[-10%] right-0 hidden lg:block z-[-1] ' src={astroImg} alt="img" />
+                    <div className='absolute top-[140px] left-0 hidden xl:block '> <ServiceElp1 /> </div>
+                    <div className='absolute bottom-0 right-0 hidden xl:block '> <ServiceElp2 /> </div>
 
                 </div>
                 <div className='relative '>
-                    <h1 className='max-[400px]:text-[55px] text-[60px] lg:text-[70px] font-normal text-white sm:mb-5 lg:mb-0  '>Services...</h1>
+                    <h1 className='max-[400px]:text-[50px] text-[60px] lg:text-[70px] font-normal text-white sm:mb-5 lg:mb-0  '>Services...</h1>
                     <div className='absolute top-[55px] z-[-1] lg:top-[70px] left-[226px] md:left-[28%]  '>
                         <SpringBorder />
                     </div>
