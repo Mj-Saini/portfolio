@@ -4,31 +4,26 @@ import React, { useState } from "react";
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  function toggleNavBar() {}
-
-  const [navbar, setNavbar] = useState(false);
-  function shownav() {
-    setNavbar(!navbar);
-  }
-
-  function shownav() {}
-
   return (
     <section>
       <div className="container max-w-[1140px] 2xl:max-w-[1550px] mx-auto px-5">
         <div className="pt-[34px] pb-9 flex items-center justify-between">
-          <div className="w-3/12 min-[1130px]:w-2/12">
+          <div className="md:w-3/12 min-[1130px]:w-2/12">
             <a className="text-[32px] font-normal text-white " href="">
               Vikas Boora
             </a>
           </div>
 
-          <div className="w-9/12 min-[1130px]:w-7/12">
-            <ol className="flex items-center gap-[35px] lg:gap-[50px] justify-end  ">
+          <div
+            className={` md:w-9/12 min-[1130px]:w-7/12 max-md:h-screen max-md:fixed top-0  max-md:w-screen max-md:bg-black max-md:z-10 max-md:flex items-center justify-center ${
+              toggleMenu ? "left-0" : "-left-full"
+            }`}
+          >
+            <ol className="flex flex-col md:flex-row items-center gap-6 lg:gap-[50px] justify-end  ">
               <li>
                 <a
-                  className="text-base font-normal text-white hover:text-[#15FFEA] duration-300 hover:border-b hover:border-[#15FFEA] "
-                  href=""
+                  className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full after:hover:left-0 duration-300 after:duration-300"
+                  href="home"
                 >
                   Home
                 </a>
@@ -75,20 +70,24 @@ const Header = () => {
 
           {/* transition-transform */}
           <div
-            onClick={toggleNavBar()}
-            className="w-8 h-7 flex flex-col justify-between duration-[5s] menu_bar min-[850px]:hidden "
+            onClick={() => setToggleMenu(!toggleMenu)}
+            className="w-6 h-5 flex flex-col justify-between duration-300 md:hidden z-[11] cursor-pointer"
           >
-            <span className="w-full h-[2px] bg-white  "></span>
-            <span className="w-full h-[2px] bg-white  "></span>
-            <span className="w-full h-[2px] bg-white  "></span>
-          </div>
-
-          <div className="md:hidden z-50" onClick={shownav}>
-            {navbar ? (
-              <img className="h-6 w-6 rotate-[45deg]" src="" alt="img" />
-            ) : (
-              <img className="h-6 w-6" src="" alt="img" />
-            )}
+            <span
+              className={`w-full border-[2px] border-white duration-300 bg-white ${
+                toggleMenu ? "rotate-45 translate-y-[8.5px]" : ""
+              }`}
+            ></span>
+            <span
+              className={`w-full border-[2px] border-white duration-300 bg-white ${
+                toggleMenu ? "-rotate-45" : ""
+              }`}
+            ></span>
+            <span
+              className={`w-full border-[2px] border-white duration-300 bg-white ${
+                toggleMenu ? "opacity-0" : ""
+              }`}
+            ></span>
           </div>
         </div>
 
