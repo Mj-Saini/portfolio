@@ -155,3 +155,20 @@ export const DownloadIcon = () => {
     </svg>
   )
 }
+
+
+export function DotGreenIcon() {
+  return (
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect y="0.5" width="12" height="12" rx="6" fill="#15FFEA" />
+    </svg>
+  )
+}
+export function SkillCourseImg1() {
+  return (
+    <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8.125 5.41699L12.3987 53.6903L32.5 59.5837L52.7231 53.693L56.875 5.41699H8.125ZM46.1744 21.797H24.5781L25.044 27.257H45.89L44.1946 45.0372L32.695 48.7774L21.1006 44.8368L20.3206 36.896H25.8023L26.2356 40.7174L32.7356 42.9247L39.0894 40.8582L39.8937 32.7197H20.085L18.5629 16.3343H46.7621L46.1744 21.797Z" fill="white" />
+    </svg>
+
+  )
+}
