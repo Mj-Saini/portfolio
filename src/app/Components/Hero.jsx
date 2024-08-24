@@ -66,7 +66,7 @@ const Hero = () => {
               <HeroSecElp />
             </div>
 
-            <div className=" after:absolute max-[400px]:w-[280px] max-[400px]:h-[280px] w-[360px] h-[360px] lg:w-[488px] lg:h-[488px] relative after:w-full after:h-full after:animate-spin after:duration-[20s]  rounded-[700px] after:rounded-[700px] after:border-[4px] after:border-dashed after:border-[#15FFEA] after:shadow-[-5px_5px_40px_0px_#15FFEA66]  after:top-0 after:left-0 overflow-hidden">
+            <div className=" after:absolute max-[400px]:w-[280px] max-[400px]:h-[280px] w-[360px] h-[360px] lg:w-[488px] lg:h-[488px] relative after:w-full after:h-full after:animate-spin duration-[20s] after:duration-[20s]  rounded-[700px] after:rounded-[700px] after:border-[4px] after:border-dashed after:border-[#15FFEA] shadow-[-5px_5px_40px_0px_#15FFEA66]  after:top-0 after:left-0 overflow-hidden">
               <Image
                 className=" w-[344px] h-[478px] object-cover object-center m-auto "
                 src={vikash_img}

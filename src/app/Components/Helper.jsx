@@ -1,3 +1,5 @@
+import { SkillCourseImg1 } from "./Icon"
+
 export const ServiceArr = [
     {
         num: "01",
@@ -38,4 +40,36 @@ export const HeroSecArr = [
         numVal: "500",
         text: "Code Commits"
     },
+]
+export const ExpCard = [
+    {
+        Year: "2020 - 2021",
+        course: "Full Stack Developer",
+        company: "Hexabirds Pvt. Ltd"
+    },
+    {
+        Year: "2019 - 2020",
+        course: "Full Stack Developer",
+        company: "Hexabirds Pvt. Ltd"
+    },
+    {
+        Year: "2024 - Present",
+        course: "Full Stack Developer",
+        company: "Hexabirds Pvt. Ltd"
+    },
+    {
+        Year: "2023 - Present",
+        course: "Full Stack Developer",
+        company: "Hexabirds Pvt. Ltd"
+    },
+]
+
+export const SkillCardArr = [
+    {
+        courseImg: <SkillCourseImg1 />,
+        courseName:"Html 5"
+    },
+    {
+
+    }
 ]
