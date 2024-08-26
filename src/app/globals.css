@@ -28,3 +28,30 @@ body {
 .socialHover:hover svg path {
   fill: black;
 }
+
+.roadmap_line::after {
+  content: ' ';
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  background: #15FFEA;
+  top: 0;
+  right: 0px;
+  z-index: 1;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+@media (max-width:640px) {
+  .roadmap_line::after {
+    content: ' ';
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    background: #15FFEA;
+    top: 0;
+    left: 10px;
+    /* z-index: 1; */
+  }
+}

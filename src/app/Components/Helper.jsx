@@ -1,4 +1,4 @@
-import { SkillCourseImg1 } from "./Icon";
+import { SkillCourseImg1, SkillCourseImg2, SkillCourseImg3, SkillCourseImg4, SkillCourseImg5, SkillCourseImg6, SkillCourseImg7, SkillCourseImg8 } from "./Icon";
 
 export const ServiceArr = [
   {
@@ -72,5 +72,33 @@ export const SkillCardArr = [
   {
     courseImg: <SkillCourseImg1 />,
     courseName: "Html 5",
+  },
+  {
+    courseImg: <SkillCourseImg2 />,
+    courseName: "Css 3",
+  },
+  {
+    courseImg: <SkillCourseImg3 />,
+    courseName: "Javascript",
+  },
+  {
+    courseImg: <SkillCourseImg4 />,
+    courseName: "React Js",
+  },
+  {
+    courseImg: <SkillCourseImg5 />,
+    courseName: "Figma",
+  },
+  {
+    courseImg: <SkillCourseImg6 />,
+    courseName: "Next. Js",
+  },
+  {
+    courseImg: <SkillCourseImg7 />,
+    courseName: "Node. Js",
+  },
+  {
+    courseImg: <SkillCourseImg8 />,
+    courseName: "Tailwind. Css",
   },
 ];

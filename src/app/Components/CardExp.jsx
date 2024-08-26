@@ -5,30 +5,28 @@ import { ExpCard } from "./Helper";
 const CardExp = () => {
   return (
     <div>
-      {" "}
-      <h1 className="text-[32px] font-semibold text-white mb-5 ">
+      <h1 className="text-[32px] font-semibold text-white mb-3 md:mb-5 ">
         My Experience
       </h1>
-      <p className="text-base font-normal text-white/80 lg:w-[534px] tracking-[3px] pb-11 ">
+      <p className="text-base font-normal text-white/80 lg:w-[534px] tracking-[3px] pb-5 lg:pb-11 ">
         Lorem ipsum dolor sit amet consectetur. Aliquet elit dolorLorem ipsum
         dolor sit amet consectetur. Aliquet elit dolor..
-      </p>{" "}
-      <div className="flex flex-wrap gap-5 ">
+      </p>
+      <div className="flex flex-wrap -mx-[10px] justify-center max-lg:h-[250px] max-lg:overflow-y-scroll ">
         {ExpCard.map((item, i) => {
           return (
-            <div key={i} className="bg-[#313131] rounded-[10px] p-5 w-5/12  ">
-              <p className="text-lg font-normal text-[#15FFEA]  ">
-                {item.Year}
-              </p>
-              <h1 className="text-white font-semibold text-[32px] my-[10px]">
-                {item.course}
-              </h1>
-              <div className="flex gap-[10px] items-center ">
-                <DotGreenIcon />
+            <div className="w-full sm:w-10/12 lg:w-6/12 px-[10px] mb-5">
+              <div key={i} className="bg-[#313131] rounded-[10px] p-5   ">
                 <p className="text-lg font-normal text-[#15FFEA]  ">
-                  {" "}
-                  {item.company}
+                  {item.Year}
                 </p>
+                <h1 className="text-white font-semibold text-[24px] lg:text-[28px] xl:text-[32px] my-[10px]">
+                  {item.course}
+                </h1>
+                <div className="flex gap-[10px] items-center ">
+                  <DotGreenIcon />
+                  <p className="text-lg font-normal text-[#15FFEA] "> {item.company} </p>
+                </div>
               </div>
             </div>
           );
