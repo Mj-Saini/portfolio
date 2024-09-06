@@ -26,8 +26,7 @@ const CardExp = () => {
                 <div className="flex gap-[10px] items-center ">
                   <DotGreenIcon />
                   <p className="text-lg font-normal text-[#15FFEA] ">
-                    {" "}
-                    {item.company}{" "}
+                    {item.company}
                   </p>
                 </div>
               </div>
