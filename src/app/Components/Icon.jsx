@@ -348,32 +348,12 @@ export function MyWorkElp() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <g filter="url(#filter0_d_449_8315)">
-        <circle
-          cx="-49.6612"
-          cy="99.3382"
-          r="95.306"
-          transform="rotate(-12.2351 -49.6612 99.3382)"
-          fill="url(#paint0_linear_449_8315)"
-          shape-rendering="crispEdges"
-        />
+        <circle cx="-49.6612" cy="99.3382" r="95.306" transform="rotate(-12.2351 -49.6612 99.3382)" fill="url(#paint0_linear_449_8315)" shapeRendering="crispEdges" />
       </g>
       <defs>
-        <filter
-          id="filter0_d_449_8315"
-          x="-169.987"
-          y="0.0126953"
-          width="240.652"
-          height="240.651"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
+        <filter id="filter0_d_449_8315" x="-169.987" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
           <feOffset dy="21" />
           <feGaussianBlur stdDeviation="12.5" />
           <feComposite in2="hardAlpha" operator="out" />
@@ -393,20 +373,65 @@ export function MyWorkElp() {
             result="shape"
           />
         </filter>
-        <linearGradient
-          id="paint0_linear_449_8315"
-          x1="-98.6021"
-          y1="28.5027"
-          x2="-7.1599"
-          y2="181.765"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-opacity="0" />
+        <linearGradient id="paint0_linear_449_8315" x1="-98.6021" y1="28.5027" x2="-7.1599" y2="181.765" gradientUnits="userSpaceOnUse">
+          <stop stopOpacity="0" />
           <stop offset="1" stopColor="#05675E" />
         </linearGradient>
       </defs>
     </svg>
   );
+}
+export function FooterRightElp() {
+  return (
+    <svg width="190" height="241" viewBox="0 0 190 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_d_123_1383)">
+    <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1383)" shapeRendering="crispEdges"/>
+    </g>
+    <defs>
+    <filter id="filter0_d_123_1383" x="0.0128174" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+    <feOffset dy="21"/>
+    <feGaussianBlur stdDeviation="12.5"/>
+    <feComposite in2="hardAlpha" operator="out"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0"/>
+    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_1383"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_1383" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear_123_1383" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
+    <stop stopOpacity="0"/>
+    <stop offset="1" stopColor="#05675E"/>
+    </linearGradient>
+    </defs>
+    </svg>
+    
+  )
+}
+export function FooterBottomElp() {
+  return (
+    <svg width="241" height="98" viewBox="0 0 241 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_d_123_1384)">
+    <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1384)" shapeRendering="crispEdges"/>
+    </g>
+    <defs>
+    <filter id="filter0_d_123_1384" x="0.0128784" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+    <feOffset dy="21"/>
+    <feGaussianBlur stdDeviation="12.5"/>
+    <feComposite in2="hardAlpha" operator="out"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0"/>
+    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_1384"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_1384" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear_123_1384" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
+    <stop stopOpacity="0"/>
+    <stop offset="1" stopColor="#05675E"/>
+    </linearGradient>
+    </defs>
+    </svg>
+    
+  )
 }
 export function SkillCourseImg2() {
   return (
