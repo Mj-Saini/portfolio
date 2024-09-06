@@ -46,25 +46,33 @@ const Connect = () => {
                                 name='fname'
                                 placeholder='Full Name'
                                 value={connectFormData.fname}
-                                onChange={onchangeConnectForm} />
+                                onChange={onchangeConnectForm}
+                                required
+                                />
                             <input className='border border-[#313131] rounded-[10px] p-[13px_10px] bg-transparent text-base placeholder:text-[#FFFFFF99] font-normal focus:border focus:border-[#15FFEA] text-[#15FFEA] w-full mb-5  '
                                 type="email"
                                 name='email'
                                 placeholder='Email'
                                 value={connectFormData.email}
-                                onChange={onchangeConnectForm} />
+                                onChange={onchangeConnectForm}
+                                required
+                                />
                             <input className='border border-[#313131] rounded-[10px] p-[13px_10px] bg-transparent text-base placeholder:text-[#FFFFFF99] font-normal focus:border focus:border-[#15FFEA] text-[#15FFEA] w-full mb-5  '
                                 type="text"
                                 name='phone'
                                 placeholder='Phone Number'
                                 value={connectFormData.phone}
-                                onChange={onchangeConnectForm} />
+                                onChange={onchangeConnectForm}
+                                required
+                                />
                             <input className='border border-[#313131] rounded-[10px] p-[13px_10px] bg-transparent text-base placeholder:text-[#FFFFFF99] font-normal focus:border focus:border-[#15FFEA] text-[#15FFEA] w-full   '
                                 type="text"
                                 name='subject'
                                 placeholder='Subject'
                                 value={connectFormData.subject}
-                                onChange={onchangeConnectForm} />
+                                onChange={onchangeConnectForm}
+                                required
+                                />
                         </div>
                     </div>
                     <div className='w-full sm:w-6/12 sm:px-2.5 xl:px-[25px] py-[20px] '>
@@ -74,6 +82,8 @@ const Connect = () => {
                             placeholder='Your Message'
                             value={connectFormData.msg}
                             onChange={onchangeConnectForm}
+required
+
                         ></textarea>
                         <div className='text-center'>
                             <button type='submit' className='bg-[#15FFEA] text-base font-normal text-[#080808] rounded-[10px] p-[10px_20px] mt-5  '>Send Message</button>

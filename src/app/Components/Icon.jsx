@@ -201,11 +201,11 @@ export function FooterRightElp() {
   return (
     <svg width="190" height="241" viewBox="0 0 190 241" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_d_123_1383)">
-    <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1383)" shape-rendering="crispEdges"/>
+    <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1383)" shapeRendering="crispEdges"/>
     </g>
     <defs>
-    <filter id="filter0_d_123_1383" x="0.0128174" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter0_d_123_1383" x="0.0128174" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dy="21"/>
     <feGaussianBlur stdDeviation="12.5"/>
@@ -215,8 +215,8 @@ export function FooterRightElp() {
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_1383" result="shape"/>
     </filter>
     <linearGradient id="paint0_linear_123_1383" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
-    <stop stop-opacity="0"/>
-    <stop offset="1" stop-color="#05675E"/>
+    <stop stopOpacity="0"/>
+    <stop offset="1" stopColor="#05675E"/>
     </linearGradient>
     </defs>
     </svg>
@@ -227,11 +227,11 @@ export function FooterBottomElp() {
   return (
     <svg width="241" height="98" viewBox="0 0 241 98" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_d_123_1384)">
-    <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1384)" shape-rendering="crispEdges"/>
+    <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1384)" shapeRendering="crispEdges"/>
     </g>
     <defs>
-    <filter id="filter0_d_123_1384" x="0.0128784" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter0_d_123_1384" x="0.0128784" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dy="21"/>
     <feGaussianBlur stdDeviation="12.5"/>
@@ -241,8 +241,8 @@ export function FooterBottomElp() {
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_1384" result="shape"/>
     </filter>
     <linearGradient id="paint0_linear_123_1384" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
-    <stop stop-opacity="0"/>
-    <stop offset="1" stop-color="#05675E"/>
+    <stop stopOpacity="0"/>
+    <stop offset="1" stopColor="#05675E"/>
     </linearGradient>
     </defs>
     </svg>
