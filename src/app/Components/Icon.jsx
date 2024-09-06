@@ -171,6 +171,32 @@ export function SkillCourseImg1() {
     </svg>
   )
 }
+export function MyWorkElp() {
+  return (
+    <svg width="71" height="237" viewBox="0 0 71 237" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d_449_8315)">
+        <circle cx="-49.6612" cy="99.3382" r="95.306" transform="rotate(-12.2351 -49.6612 99.3382)" fill="url(#paint0_linear_449_8315)" shape-rendering="crispEdges" />
+      </g>
+      <defs>
+        <filter id="filter0_d_449_8315" x="-169.987" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+          <feOffset dy="21" />
+          <feGaussianBlur stdDeviation="12.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0" />
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_449_8315" />
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_449_8315" result="shape" />
+        </filter>
+        <linearGradient id="paint0_linear_449_8315" x1="-98.6021" y1="28.5027" x2="-7.1599" y2="181.765" gradientUnits="userSpaceOnUse">
+          <stop stop-opacity="0" />
+          <stop offset="1" stop-color="#05675E" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+  )
+}
 export function SkillCourseImg2() {
   return (
     <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -197,7 +223,7 @@ export function SkillCourseImg4() {
 export function SkillCourseImg5() {
   return (
     <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M23.4732 25.5047C22.5545 25.5047 21.6449 25.6856 20.7961 26.0372C19.9474 26.3888 19.1762 26.9041 18.5266 27.5537C17.877 28.2033 17.3617 28.9745 17.0101 29.8232C16.6585 30.672 16.4776 31.5816 16.4776 32.5003C16.4776 33.419 16.6585 34.3287 17.0101 35.1774C17.3617 36.0262 17.877 36.7974 18.5266 37.447C19.1762 38.0966 19.9474 38.6119 20.7961 38.9634C21.6449 39.315 22.5545 39.4959 23.4732 39.4959H30.4688V32.6412C30.4678 32.5473 30.4678 32.4534 30.4688 32.3595V25.5047H23.4732ZM30.4688 21.4422H23.4732C21.6175 21.4422 19.8378 20.705 18.5256 19.3928C17.2134 18.0806 16.4762 16.3009 16.4762 14.4452C16.4762 12.5895 17.2134 10.8098 18.5256 9.49761C19.8378 8.18542 21.6175 7.44824 23.4732 7.44824H30.4688V21.4422ZM34.5313 7.44824V21.4422H41.527C43.3588 21.4062 45.1035 20.6531 46.3863 19.3449C47.6691 18.0366 48.3876 16.2775 48.3876 14.4452C48.3876 12.613 47.6691 10.8538 46.3863 9.54557C45.1035 8.2373 43.3588 7.48428 41.527 7.44824H34.5313ZM41.527 25.502C39.6907 25.5018 37.9279 26.2235 36.6192 27.5115C35.3104 28.7996 34.5605 30.5505 34.5313 32.3866V32.6114C34.5538 33.9899 34.983 35.3311 35.7652 36.4664C36.5474 37.6018 37.6476 38.4807 38.9277 38.9928C40.2078 39.5049 41.6107 39.6273 42.9601 39.3447C44.3096 39.062 45.5454 38.3869 46.5124 37.4042C47.4794 36.4215 48.1345 35.1749 48.3953 33.8211C48.6562 32.4673 48.5111 31.0666 47.9785 29.7949C47.4458 28.5232 46.5493 27.4373 45.4014 26.6735C44.2536 25.9097 42.9057 25.5022 41.527 25.502ZM23.4732 43.5584C22.089 43.5579 20.7356 43.9679 19.5844 44.7366C18.4332 45.5052 17.5358 46.598 17.0057 47.8768C16.4756 49.1555 16.3366 50.5627 16.6063 51.9204C16.876 53.2781 17.5424 54.5254 18.521 55.5044C19.4996 56.4834 20.7466 57.1502 22.1042 57.4204C23.4618 57.6907 24.8691 57.5523 26.148 57.0227C27.427 56.493 28.5201 55.5961 29.2892 54.4451C30.0583 53.2942 30.4688 51.941 30.4688 50.5568V43.5584H23.4732Z" fill="white" />
+      <path fillRule="evenodd" clipRule="evenodd" d="M23.4732 25.5047C22.5545 25.5047 21.6449 25.6856 20.7961 26.0372C19.9474 26.3888 19.1762 26.9041 18.5266 27.5537C17.877 28.2033 17.3617 28.9745 17.0101 29.8232C16.6585 30.672 16.4776 31.5816 16.4776 32.5003C16.4776 33.419 16.6585 34.3287 17.0101 35.1774C17.3617 36.0262 17.877 36.7974 18.5266 37.447C19.1762 38.0966 19.9474 38.6119 20.7961 38.9634C21.6449 39.315 22.5545 39.4959 23.4732 39.4959H30.4688V32.6412C30.4678 32.5473 30.4678 32.4534 30.4688 32.3595V25.5047H23.4732ZM30.4688 21.4422H23.4732C21.6175 21.4422 19.8378 20.705 18.5256 19.3928C17.2134 18.0806 16.4762 16.3009 16.4762 14.4452C16.4762 12.5895 17.2134 10.8098 18.5256 9.49761C19.8378 8.18542 21.6175 7.44824 23.4732 7.44824H30.4688V21.4422ZM34.5313 7.44824V21.4422H41.527C43.3588 21.4062 45.1035 20.6531 46.3863 19.3449C47.6691 18.0366 48.3876 16.2775 48.3876 14.4452C48.3876 12.613 47.6691 10.8538 46.3863 9.54557C45.1035 8.2373 43.3588 7.48428 41.527 7.44824H34.5313ZM41.527 25.502C39.6907 25.5018 37.9279 26.2235 36.6192 27.5115C35.3104 28.7996 34.5605 30.5505 34.5313 32.3866V32.6114C34.5538 33.9899 34.983 35.3311 35.7652 36.4664C36.5474 37.6018 37.6476 38.4807 38.9277 38.9928C40.2078 39.5049 41.6107 39.6273 42.9601 39.3447C44.3096 39.062 45.5454 38.3869 46.5124 37.4042C47.4794 36.4215 48.1345 35.1749 48.3953 33.8211C48.6562 32.4673 48.5111 31.0666 47.9785 29.7949C47.4458 28.5232 46.5493 27.4373 45.4014 26.6735C44.2536 25.9097 42.9057 25.5022 41.527 25.502ZM23.4732 43.5584C22.089 43.5579 20.7356 43.9679 19.5844 44.7366C18.4332 45.5052 17.5358 46.598 17.0057 47.8768C16.4756 49.1555 16.3366 50.5627 16.6063 51.9204C16.876 53.2781 17.5424 54.5254 18.521 55.5044C19.4996 56.4834 20.7466 57.1502 22.1042 57.4204C23.4618 57.6907 24.8691 57.5523 26.148 57.0227C27.427 56.493 28.5201 55.5961 29.2892 54.4451C30.0583 53.2942 30.4688 51.941 30.4688 50.5568V43.5584H23.4732Z" fill="white" />
     </svg>
 
   )
@@ -205,7 +231,7 @@ export function SkillCourseImg5() {
 export function SkillCourseImg6() {
   return (
     <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#clip0_390_50)">
+      <g clipPath="url(#clip0_390_50)">
         <path d="M49.7656 0H15.2344C6.82066 0 0 6.82066 0 15.2344V49.7656C0 58.1793 6.82066 65 15.2344 65H49.7656C58.1793 65 65 58.1793 65 49.7656V15.2344C65 6.82066 58.1793 0 49.7656 0Z" fill="#F4F2ED" />
         <path d="M30.8374 7.12277C30.7282 7.13267 30.3806 7.16746 30.0678 7.19208C22.8554 7.84234 16.0994 11.7342 11.8203 17.7157C9.43793 21.0417 7.91373 24.8142 7.33813 28.8104C7.13475 30.2054 7.10986 30.6175 7.10986 32.5086C7.10986 34.3999 7.13475 34.812 7.33838 36.2067C8.71811 45.7424 15.504 53.7544 24.7071 56.7228C26.3552 57.254 28.0924 57.6163 30.0681 57.8347C30.8377 57.919 34.1633 57.919 34.9329 57.8347C38.3431 57.4574 41.2321 56.6137 44.0814 55.159C44.5181 54.9359 44.6027 54.8762 44.543 54.8267C44.5034 54.7967 42.6418 52.2998 40.4081 49.2819L36.3477 43.7967L31.2594 36.2664C28.4598 32.1264 26.1566 28.7409 26.1366 28.7409C26.1168 28.736 26.097 32.0818 26.0871 36.1671C26.0721 43.3202 26.0673 43.6081 25.9779 43.7767C25.8489 44.0199 25.7496 44.1192 25.5409 44.2286C25.3822 44.3078 25.2431 44.3228 24.4936 44.3228H23.6348L23.4063 44.1789C23.2648 44.0902 23.1499 43.9651 23.0737 43.8165L22.9696 43.5931L22.9798 33.6405L22.9945 23.6828L23.1484 23.4891C23.2278 23.385 23.3967 23.2509 23.5158 23.1864C23.7191 23.0871 23.7986 23.0772 24.6573 23.0772C25.6702 23.0772 25.8388 23.1168 26.1021 23.4048C26.1764 23.4842 28.9313 27.6341 32.2275 32.6327C35.5645 37.6923 38.9036 42.7505 42.2447 47.8074L46.2655 53.8984L46.4691 53.7643C48.2709 52.5928 50.1772 50.9249 51.6862 49.1874C54.8978 45.4992 56.9679 41.002 57.6629 36.2067C57.8662 34.812 57.8911 34.3999 57.8911 32.5086C57.8911 30.6172 57.8662 30.2054 57.6629 28.8104C56.2829 19.2747 49.497 11.263 40.2939 8.29455C38.6707 7.7682 36.9433 7.40587 35.0073 7.18751C34.5307 7.13775 31.2495 7.08341 30.8377 7.12302M41.2321 22.4816C41.4702 22.6006 41.664 22.8289 41.7335 23.0671C41.7731 23.1963 41.783 25.9563 41.7731 32.176L41.7582 41.1013L40.1847 38.6886L38.6062 36.2763V29.7885C38.6062 25.5939 38.626 23.2359 38.6557 23.1217C38.7352 22.8439 38.9088 22.6255 39.1472 22.4963C39.3506 22.3922 39.4253 22.382 40.2045 22.382C40.9393 22.382 41.0683 22.3922 41.2321 22.4816Z" fill="black" />
       </g>
@@ -229,7 +255,7 @@ export function SkillCourseImg7() {
 export function SkillCourseImg8() {
   return (
     <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#clip0_390_693)">
+      <g clipPath="url(#clip0_390_693)">
         <path d="M32.5029 13C23.8363 13 18.4196 17.3333 16.2529 26C19.5029 21.6667 23.2946 20.0417 27.6279 21.125C30.1006 21.7425 31.8665 23.5354 33.8246 25.5233C37.0123 28.7571 40.6983 32.5 48.7529 32.5C57.4196 32.5 62.8363 28.1667 65.0029 19.5C61.7529 23.8333 57.9613 25.4583 53.6279 24.375C51.1552 23.7575 49.3894 21.9646 47.4313 19.9767C44.2463 16.7429 40.5602 13 32.5029 13ZM16.2529 32.5C7.58626 32.5 2.1696 36.8333 0.00292969 45.5C3.25293 41.1667 7.0446 39.5417 11.3779 40.625C13.8506 41.2425 15.6165 43.0354 17.5746 45.0233C20.7623 48.2571 24.4483 52 32.5029 52C41.1696 52 46.5863 47.6667 48.7529 39C45.5029 43.3333 41.7113 44.9583 37.3779 43.875C34.9052 43.2575 33.1394 41.4646 31.1813 39.4767C27.9963 36.2429 24.3102 32.5 16.2529 32.5Z" fill="white" />
       </g>
       <defs>
@@ -247,11 +273,11 @@ export function ResumeElpBottom() {
   return (
     <svg width="141" height="241" viewBox="0 0 141 241" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_d_39_245)">
-        <circle cx="20.3388" cy="99.3392" r="95.306" transform="rotate(-12.2351 20.3388 99.3392)" fill="url(#paint0_linear_39_245)" shape-rendering="crispEdges" />
+        <circle cx="20.3388" cy="99.3392" r="95.306" transform="rotate(-12.2351 20.3388 99.3392)" fill="url(#paint0_linear_39_245)" shapeRendering="crispEdges" />
       </g>
       <defs>
-        <filter id="filter0_d_39_245" x="-99.9871" y="0.0136719" width="240.652" height="240.651" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <filter id="filter0_d_39_245" x="-99.9871" y="0.0136719" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
           <feOffset dy="21" />
           <feGaussianBlur stdDeviation="12.5" />
@@ -261,8 +287,8 @@ export function ResumeElpBottom() {
           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_39_245" result="shape" />
         </filter>
         <linearGradient id="paint0_linear_39_245" x1="-28.6021" y1="28.5037" x2="62.8401" y2="181.766" gradientUnits="userSpaceOnUse">
-          <stop stop-opacity="0" />
-          <stop offset="1" stop-color="#05675E" />
+          <stop stopOpacity="0" />
+          <stop offset="1" stopColor="#05675E" />
         </linearGradient>
       </defs>
     </svg>
@@ -273,11 +299,11 @@ export function ResumeElpTop() {
   return (
     <svg width="190" height="241" viewBox="0 0 190 241" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_d_39_244)">
-        <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_39_244)" shape-rendering="crispEdges" />
+        <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_39_244)" shapeRendering="crispEdges" />
       </g>
       <defs>
-        <filter id="filter0_d_39_244" x="0.0126953" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <filter id="filter0_d_39_244" x="0.0126953" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
           <feOffset dy="21" />
           <feGaussianBlur stdDeviation="12.5" />
@@ -287,8 +313,8 @@ export function ResumeElpTop() {
           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_39_244" result="shape" />
         </filter>
         <linearGradient id="paint0_linear_39_244" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
-          <stop stop-opacity="0" />
-          <stop offset="1" stop-color="#05675E" />
+          <stop stopOpacity="0" />
+          <stop offset="1" stopColor="#05675E" />
         </linearGradient>
       </defs>
     </svg>
@@ -297,17 +323,17 @@ export function ResumeElpTop() {
 export function RoadmapDot() {
   return (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#filter0_f_48_139)">
-    <rect x="4" y="4" width="16" height="16" rx="8" fill="#15FFEA"/>
-    </g>
-    <defs>
-    <filter id="filter0_f_48_139" x="0" y="0" width="24" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-    <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_48_139"/>
-    </filter>
-    </defs>
+      <g filter="url(#filter0_f_48_139)">
+        <rect x="4" y="4" width="16" height="16" rx="8" fill="#15FFEA" />
+      </g>
+      <defs>
+        <filter id="filter0_f_48_139" x="0" y="0" width="24" height="24" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+          <feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_48_139" />
+        </filter>
+      </defs>
     </svg>
-    
+
   )
 }

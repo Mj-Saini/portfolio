@@ -21,64 +21,63 @@ const Header = () => {
             </a>
           </div>
 
-          <div
-            className={` md:w-9/12 min-[1130px]:w-7/12 max-md:h-screen max-md:fixed top-0  max-md:w-screen max-md:bg-black max-md:z-10 max-md:flex items-center justify-center duration-300 ${
-              toggleMenu ? "left-0" : "-left-full"
-            }`}
-          >
-            <ol className="flex flex-col md:flex-row items-center gap-6 lg:gap-[50px] justify-end  ">
-              <li>
-                <a
-                  onClick={() => setToggleMenu(false)}
-                  className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300"
-                  href="#home "
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  onClick={() => setToggleMenu(false)}
-                  className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
-                  href="#service"
-                >
-                  Service
-                </a>
-              </li>
-              <li>
-                <a
-                  onClick={() => setToggleMenu(false)}
-                  className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
-                  href="#resume"
-                >
-                  Resume
-                </a>
-              </li>
-              <li>
-                <a
-                  onClick={() => setToggleMenu(false)}
-                  className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
-                  href=""
-                >
-                  Work
-                </a>
-              </li>
-              <li>
-                <a
-                  onClick={() => setToggleMenu(false)}
-                  className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
-                  href=""
-                >
-                  Contact
-                </a>
-              </li>
-              <li>
-                <button className="text-base font-normal text-[#15FFEA] border border-[#15FFEA] p-[10px_20px] rounded-[50px]  duration-300 hover:duration-300 hover:bg-[#15FFEA] hover:text-black ">
-                  Hire me
-                </button>
-              </li>
-            </ol>
-          </div>
+                    <div
+                        className={` md:w-9/12 min-[1130px]:w-7/12 max-md:h-screen max-md:fixed top-0  max-md:w-screen max-md:bg-black max-md:z-10 max-md:flex items-center justify-center duration-300 ${toggleMenu ? "left-0" : "-left-full"
+                            }`}
+                    >
+                        <ol className="flex flex-col md:flex-row items-center gap-6 lg:gap-[50px] justify-end  ">
+                            <li>
+                                <a
+                                    onClick={() => setToggleMenu(false)}
+                                    className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300"
+                                    href="#home "
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    onClick={() => setToggleMenu(false)}
+                                    className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
+                                    href="#service"
+                                >
+                                    Service
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    onClick={() => setToggleMenu(false)}
+                                    className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
+                                    href="#resume"
+                                >
+                                    Resume
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    onClick={() => setToggleMenu(false)}
+                                    className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
+                                    href="#work"
+                                >
+                                    Work
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    onClick={() => setToggleMenu(false)}
+                                    className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
+                                    href="#contact"
+                                >
+                                    Contact
+                                </a>
+                            </li>
+                            <li>
+                                <button className="text-base font-normal text-[#15FFEA] border border-[#15FFEA] p-[10px_20px] rounded-[50px]  duration-300 hover:duration-300 hover:bg-[#15FFEA] hover:text-black ">
+                                    Hire me
+                                </button>
+                            </li>
+                        </ol>
+                    </div>
 
           <div
             onClick={() => setToggleMenu(!toggleMenu)}
