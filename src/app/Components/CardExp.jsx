@@ -13,7 +13,7 @@ const CardExp = () => {
         dolor sit amet consectetur. Aliquet elit dolor..
       </p>
       <div className="flex flex-wrap -mx-[10px] justify-center max-lg:h-[250px] max-lg:overflow-y-scroll ">
-        {ExpCard.map((item, i) => {
+        {ExpCard.map((item, index) => {
           return (
             <div key={i} className="w-full sm:w-10/12 lg:w-6/12 px-[10px] mb-5">
               <div key={i} className="bg-[#313131] rounded-[10px] p-5   ">
@@ -25,7 +25,10 @@ const CardExp = () => {
                 </h1>
                 <div className="flex gap-[10px] items-center ">
                   <DotGreenIcon />
-                  <p className="text-lg font-normal text-[#15FFEA] "> {item.company} </p>
+                  <p className="text-lg font-normal text-[#15FFEA] ">
+                    {" "}
+                    {item.company}{" "}
+                  </p>
                 </div>
               </div>
             </div>

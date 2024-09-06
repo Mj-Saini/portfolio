@@ -11,7 +11,7 @@ const MyWork = () => {
         <div id='work' className='relative max-lg:py-12 pb-[209px] '>
             <div className='container max-w-[1140px] 2xl:max-w-[1550px] mx-auto px-5  '>
                 <h1 className='max-[400px]:text-[50px] text-[60px] lg:text-[70px] font-normal text-white sm:mb-5 lg:mb-0 text-center '>My Work</h1>
-                <div className='absolute bottom-0 left-0 '> <MyWorkElp /> </div>
+                <div className='absolute bottom-0 left-0  '> <MyWorkElp /> </div>
                 <div className='mt-[150px] '>
                     <div >
                         <Image src={myWork_img1} alt='img' />
