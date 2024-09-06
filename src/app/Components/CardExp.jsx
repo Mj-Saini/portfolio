@@ -15,7 +15,7 @@ const CardExp = () => {
       <div className="flex flex-wrap -mx-[10px] justify-center max-lg:h-[250px] max-lg:overflow-y-scroll ">
         {ExpCard.map((item, i) => {
           return (
-            <div className="w-full sm:w-10/12 lg:w-6/12 px-[10px] mb-5">
+            <div key={i} className="w-full sm:w-10/12 lg:w-6/12 px-[10px] mb-5">
               <div key={i} className="bg-[#313131] rounded-[10px] p-5   ">
                 <p className="text-lg font-normal text-[#15FFEA]  ">
                   {item.Year}

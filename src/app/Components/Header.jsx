@@ -56,7 +56,7 @@ const Header = () => {
                                 <a
                                     onClick={() => setToggleMenu(false)}
                                     className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
-                                    href=""
+                                    href="#work"
                                 >
                                     Work
                                 </a>
@@ -65,7 +65,7 @@ const Header = () => {
                                 <a
                                     onClick={() => setToggleMenu(false)}
                                     className="text-base font-normal text-white relative after:absolute after:w-0 after:h-0.5 after:bg-[#15FFEA] after:-bottom-1 after:left-1/2 after:hover:w-full hover:text-[#15FFEA] after:hover:left-0 duration-300 after:duration-300 "
-                                    href=""
+                                    href="#contact"
                                 >
                                     Contact
                                 </a>
