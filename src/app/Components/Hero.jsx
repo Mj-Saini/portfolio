@@ -83,13 +83,13 @@ const Hero = () => {
             return (
               <div
                 key={i}
-                className=" max-[400px]:w-7/12 min-[400px]:w-4/12 sm:w-2/12 flex gap-[15px] items-center"
+                className=" max-[440px]:w-10/12 min-[440px]:w-5/12 sm:w-2/12 flex  gap-[15px] items-center "
               >
-                <h1 className="max-[400px]:w-6/12 ff_roadRage text-5xl lg:text-[64px] font-normal text-[#FFFFFFCC] ">
+                <h1 className="max-[400px]:w-3/12 ff_roadRage text-5xl lg:text-[64px] font-normal text-[#FFFFFFCC] ">
                   {" "}
                   {item.numVal}{" "}
                 </h1>
-                <p className="max-[400px]:w-6/12  text-sm lg:text-lg font-normal text-[#FFFFFFCC] ">
+                <p className="max-[400px]:w-8/12  text-sm lg:text-lg font-normal text-[#FFFFFFCC] ">
                   {" "}
                   {item.text}{" "}
                 </p>

@@ -13,8 +13,8 @@ const EduCard = () => {
             <div className='max-lg:h-[250px] h-[350px] overflow-y-scroll'>
                 <div className='flex  '>
                     <div className='sm:w-6/12 ps-7 sm:px-[15px] relative roadmap_line sm:text-right '>
-                        <div className='absolute top-0 max-sm:left-[0px] -right-[10px] max-sm:pt-7 '><RoadmapDot /> </div>
-                        <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2021</p>
+                        <div className='absolute top-[-5px] max-sm:left-[0px] -right-[10px] '><RoadmapDot /> </div>
+                        <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] '>2021</p>
                         <div className='border-[2px] border-[#15FFEA] rounded-[20px] p-[10px_15px] bg-[#313131]   '>
                             <p className='font-medium text-white text-xl mb-[10px]  '>High School</p>
                             <p className='text-sm text-white/80 tracking-[1px] font-normal  '>Lorem ipsum dolor sit amet consectetur. At augue dignissim eu posuere non mi dictum lacus praesent. </p>
@@ -27,7 +27,7 @@ const EduCard = () => {
                     <div className='sm:w-6/12 px-[15px] relative roadmap_line '>
                         <div className='absolute top-0 max-sm:left-[0px] -right-[10px] max-sm:pt-7'><RoadmapDot /> </div>
                     </div>
-                    <div className='sm:w-6/12 px-[15px] text-left '>
+                    <div className='sm:w-6/12 sm:px-[15px] text-left '>
                         <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2022</p>
                         <div className='border-[2px] border-[#15FFEA] rounded-[20px] p-[10px_15px] bg-[#313131]   '>
                             <p className='font-medium text-white text-xl mb-[10px]  '>High School</p>
@@ -52,7 +52,7 @@ const EduCard = () => {
                     <div className='sm:w-6/12 px-[15px] relative roadmap_line '>
                         <div className='absolute top-0 max-sm:left-[0px] -right-[10px] max-sm:pt-7'><RoadmapDot /> </div>
                     </div>
-                    <div className='sm:w-6/12 px-[15px] text-left '>
+                    <div className='sm:w-6/12 sm:px-[15px] text-left '>
                         <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2022</p>
                         <div className='border-[2px] border-[#15FFEA] rounded-[20px] p-[10px_15px] bg-[#313131]   '>
                             <p className='font-medium text-white text-xl mb-[10px]  '>High School</p>
