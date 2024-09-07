@@ -16,7 +16,7 @@ const Header = () => {
       <div className="container max-w-[1140px] 2xl:max-w-[1550px] mx-auto px-5">
         <div className="pt-[34px] pb-9 flex items-center justify-between">
           <div className="md:w-3/12 min-[1130px]:w-2/12">
-            <a className="text-[32px] font-normal text-white " href="">
+            <a className="text-xl sm:text-[32px] font-normal text-white " href="#">
               Vikas Boora
             </a>
           </div>

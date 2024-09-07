@@ -9,7 +9,7 @@ export const ServiceArr = [
   },
   {
     num: "02",
-    title: "UI/UI Design",
+    title: "UI/UX Design",
     description:
       "Lorem ipsum dolor sit amet consectetur. At augue dignissim eu posuere non mi dictum lacus praesent. Aliquet elit r dolor.",
   },

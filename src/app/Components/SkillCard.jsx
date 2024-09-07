@@ -4,8 +4,8 @@ import { SkillCardArr } from "./Helper";
 const SkillCard = () => {
   return (
     <div>
-      <h1 className="text-[32px] font-semibold text-white mb-5 ">My Skills</h1>
-      <p className="text-base font-normal text-white/80 lg:w-[534px] tracking-[3px] pb-5 lg:pb-11 ">
+      <h1 className="text-lg sm:text-[32px] font-semibold text-white mb-2 sm:mb-5">My Skills</h1>
+      <p className="text-xs sm:text-base font-normal text-white/80 lg:w-[534px] tracking-[3px] pb-5 lg:pb-11 ">
         Lorem ipsum dolor sit amet consectetur. Aliquet elit dolorLorem ipsum
         dolor sit amet consectetur. Aliquet elit dolor..
       </p>

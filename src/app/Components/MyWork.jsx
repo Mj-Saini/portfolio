@@ -63,7 +63,7 @@ const MyWork = () => {
       ref={containerRef}
       className="relative max-lg:pt-12 md:pb-20 overflow-hidden h-screen"
     >
-      <h1 className="max-[400px]:text-[50px] text-[60px] lg:text-[70px] font-normal text-white sm:mb-5 lg:mb-0 text-center">
+      <h1 className="text-[35px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-normal text-white sm:mb-5 lg:mb-0 text-center">
         My Work
       </h1>
       <div className="absolute bottom-0 left-0 hidden lg:block">

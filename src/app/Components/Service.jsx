@@ -15,8 +15,8 @@ const Service = () => {
 
                
                 <div className='relative '>
-                    <h1 className='max-[400px]:text-[50px] text-[60px] lg:text-[70px] font-normal text-white mb-5 lg:mb-0  '>Services...</h1>
-                    <div className='absolute top-[55px] z-[-1] lg:top-[70px] left-[226px] md:left-[28%]  '>
+                    <h1 className='text-[35px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-normal text-white mb-5 lg:mb-0  '>Services...</h1>
+                    <div className='absolute top-[40px] sm:top-[50px] sm:left-[200px] z-[-1] lg:top-[70px] left-[144px] md:left-[28%]  '>
                         <SpringBorder />
                     </div>
                 </div>

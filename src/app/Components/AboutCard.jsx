@@ -3,8 +3,8 @@ import React from 'react'
 const AboutCard = () => {
     return (
         <div>
-            <h1 className="text-[32px] font-semibold text-white mb-5 ">About Me</h1>
-            <p className="text-base font-normal text-white/80 lg:w-[534px] tracking-[3px] pb-5 lg:pb-11 ">
+            <h1 className="text-lg sm:text-[32px] font-semibold text-white mb-2 sm:mb-5">About Me</h1>
+            <p className="text-xs sm:text-base font-normal text-white/80 lg:w-[534px] tracking-[3px] pb-5 lg:pb-11 ">
                 Lorem ipsum dolor sit amet consectetur. Aliquet elit dolorLorem ipsum
                 dolor sit amet consectetur. Aliquet elit dolor..
             </p>
@@ -18,10 +18,10 @@ const AboutCard = () => {
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Freelance</p>
                     </div>
                     <div className=' flex flex-col gap-[30px]'>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>Vikas Boora</p>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>10+ Years</p>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>Indian</p>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>Available</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Vikas Boora</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>10+ Years</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Indian</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Available</p>
                     </div>
                 </div>
 
@@ -33,10 +33,10 @@ const AboutCard = () => {
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Language</p>
                     </div>
                     <div className='flex flex-col gap-[30px]'>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>+91 95478-45687</p>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[1px]  '>Vikasboora@gmail.com</p>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>Vikas.00</p>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>English, Hindi</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>+91 95478-45687</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[1px]  '>Vikasboora@gmail.com</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Vikas.00</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>English, Hindi</p>
                     </div>
                 </div>
 

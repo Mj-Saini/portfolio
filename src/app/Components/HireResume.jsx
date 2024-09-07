@@ -17,7 +17,7 @@ const HireResume = () => {
           <div className="absolute left-0 bottom-0 z-[-1] hidden xl:block "> <ResumeElpBottom /> </div>
         </div>
 
-        <h1 className="max-[400px]:text-[50px] text-[60px] lg:text-[70px] font-normal text-white mb-5   ">
+        <h1 className="text-[35px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-normal text-white mb-5   ">
           Resume...
         </h1>
 
