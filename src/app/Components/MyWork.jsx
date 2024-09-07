@@ -42,8 +42,8 @@ const MyWork = () => {
     )
       .fromTo(
         "#sliderImg2",
-        { x: "120%", y: "90%", rotate: "30%" },
-        { x: "-120%", opacity: 1, duration: 3, y: "90%", rotate: "-30%" },
+        { x: "120%", y: "50%", rotate: "30%" },
+        { x: "-120%", opacity: 1, duration: 3, y: "50%", rotate: "-30%" },
         "-=2"
       )
       .fromTo(
@@ -61,7 +61,7 @@ const MyWork = () => {
     <div
       id="work"
       ref={containerRef}
-      className="relative max-lg:py-12 pb-[209px] overflow-hidden h-screen"
+      className="relative max-lg:pt-12 md:pb-20 overflow-hidden h-screen"
     >
       <h1 className="max-[400px]:text-[50px] text-[60px] lg:text-[70px] font-normal text-white sm:mb-5 lg:mb-0 text-center">
         My Work
@@ -71,11 +71,11 @@ const MyWork = () => {
       </div>
       <div
         id="imgParent"
-        className="flex justify-center gap-20 items-center w-screen relative mt-[150px]"
+        className="flex justify-center gap-20 items-center w-screen relative mt-14 lg:mt-[150px]"
       >
         <Image
           id="sliderImg1"
-          className="absolute w-[560px] h-[370px] top-0 -translate-y-1/2"
+          className="absolute w-[280px] sm:w-[560px]  md:h-[370px] top-0 -translate-y-1/2"
           src={myWork_img1}
           alt="img"
         />
@@ -83,13 +83,13 @@ const MyWork = () => {
           id="sliderImg2"
           src={myWork_img2}
           alt="Image 2"
-          className="absolute w-[560px] h-[370px] top-0 -translate-y-1/2"
+          className="absolute w-[280px] sm:w-[560px]  md:h-[370px] top-0 -translate-y-1/2"
         />
         <Image
           id="sliderImg3"
           src={myWork_img3}
           alt="Image 3"
-          className="absolute w-[560px] h-[370px] top-0 -translate-y-1/2"
+          className="absolute w-[280px] sm:w-[560px]  md:h-[370px] top-0 -translate-y-1/2"
         />
       </div>
     </div>
