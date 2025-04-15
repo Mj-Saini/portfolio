@@ -3,27 +3,57 @@ import { SkillCourseImg1, SkillCourseImg2, SkillCourseImg3, SkillCourseImg4, Ski
 export const ServiceArr = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Responsive Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur. At augue dignissim eu posuere non mi dictum lacus praesent. Aliquet elit r dolor.",
+      "Crafting fully responsive websites using React, Next.js, and Tailwind CSS to ensure seamless user experience across all devices.",
   },
   {
     num: "02",
-    title: "UI/UI Design",
+    title: "UI/UX Implementation",
     description:
-      "Lorem ipsum dolor sit amet consectetur. At augue dignissim eu posuere non mi dictum lacus praesent. Aliquet elit r dolor.",
+      "Translating Figma or Adobe XD designs into clean, interactive, and accessible interfaces with pixel-perfect accuracy.",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Reusable Component Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur. At augue dignissim eu posuere non mi dictum lacus praesent. Aliquet elit r dolor.",
+      "Building modular and maintainable UI components with React for fast and scalable development across pages and apps.",
   },
   {
     num: "04",
-    title: "App Development",
+    title: "Performance Optimization",
     description:
-      "Lorem ipsum dolor sit amet consectetur. At augue dignissim eu posuere non mi dictum lacus praesent. Aliquet elit r dolor.",
+      "Improving frontend performance using code splitting, lazy loading, image optimization, and best practices for blazing-fast sites.",
+  },
+  {
+    num: "05",
+    title: "Animation & Interaction",
+    description:
+      "Adding smooth scroll animations, hover effects, and micro-interactions using GSAP, Framer Motion, and CSS transitions.",
+  },
+  {
+    num: "06",
+    title: "State Management",
+    description:
+      "Managing app state efficiently using React Context API, Zustand, Redux, or any modern state management tool as per project need.",
+  },
+  {
+    num: "07",
+    title: "API Integration",
+    description:
+      "Fetching and displaying data from REST APIs or GraphQL with error handling, loading states, and dynamic routing.",
+  },
+  {
+    num: "08",
+    title: "SEO & Accessibility",
+    description:
+      "Implementing semantic HTML, meta tags, structured data, and accessible ARIA roles for better SEO and usability.",
+  },
+  {
+    num: "09",
+    title: "Version Control & Deployment",
+    description:
+      "Using Git/GitHub for version control and deploying fully responsive frontend projects on platforms like Vercel or Netlify.",
   },
 ];
 
@@ -47,25 +77,15 @@ export const HeroSecArr = [
 ];
 export const ExpCard = [
   {
-    Year: "2020 - 2021",
-    course: "Full Stack Developer",
+    Year: "2022 - 2025",
+    course: "Frontend Developer",
     company: "Hexabirds Pvt. Ltd",
-  },
-  {
-    Year: "2019 - 2020",
-    course: "Full Stack Developer",
-    company: "Hexabirds Pvt. Ltd",
-  },
-  {
-    Year: "2024 - Present",
-    course: "Full Stack Developer",
-    company: "Hexabirds Pvt. Ltd",
-  },
-  {
-    Year: "2023 - Present",
-    course: "Full Stack Developer",
-    company: "Hexabirds Pvt. Ltd",
-  },
+  }, {
+    Year: "2025 - current",
+    course: "Freelance Frontend Developer",
+    company: "Freelance",
+  }
+
 ];
 
 export const SkillCardArr = [
@@ -87,7 +107,7 @@ export const SkillCardArr = [
   },
   {
     courseImg: <SkillCourseImg5 />,
-    courseName: "Figma",
+    courseName: "Firebase",
   },
   {
     courseImg: <SkillCourseImg6 />,

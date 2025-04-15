@@ -27,7 +27,7 @@ const HireResume = () => {
               Why hire me?
             </h1>
             <p className="text-base font-normal text-white/80 my-3 md:my-5 tracking-[2px] ">
-              Lorem ipsum dolor sit amet consectetur. Aliquet elit dolor.
+              As a Frontend Web Developer, I create smooth, responsive, and engaging digital experiences. With expertise in React.js, Next.js, and Tailwind CSS, I blend design precision with fast, efficient development.
             </p>
 
             <div className="flex flex-col gap-5 max-[500px]:flex-col min-[500px]:flex-row min-[800px]:flex-col ">
