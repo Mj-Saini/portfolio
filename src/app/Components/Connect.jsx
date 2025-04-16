@@ -3,6 +3,8 @@
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { FooterBottomElp, FooterRightElp } from './Icon';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Connect = () => {
     const [connectFormData, setConnectFormData] = useState({
@@ -22,27 +24,37 @@ const Connect = () => {
     function submitConnectForm(e) {
         e.preventDefault();
 
-        // Send email using EmailJS, passing the form reference to sendForm
         emailjs
             .sendForm('service_188fgu9', 'template_j4aqotk', form.current, 'A7kWaOn36_TB6sQfr')
             .then(
                 () => {
-                    console.log('SUCCESS!');
-                    // toast.success("form successfully submited!")
+                    toast.success("Form successfully submitted! 🎉");
                 },
                 (error) => {
-                    // toast.error("FAILED")
+                    toast.error("Failed to send. Please try again. ❌");
                     console.log('FAILED...', error.text);
                 }
             )
             .catch((error) => {
+                toast.error("Something went wrong. 🫠");
                 console.log('Error occurred:', error);
             });
+
+        setConnectFormData({
+            fname: "",
+            email: "",
+            phone: "",
+            subject: "",
+            msg: ""
+        });
     }
+
 
     return (
         <div id='contact' className='relative max-lg:py-12 pt-[78px] pb-[91px]'>
+           
             <div className='container max-w-[1140px] 2xl:max-w-[1550px] mx-auto px-5'>
+                <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
                 <div className='absolute bottom-0 left-[70px] hidden lg:block -z-10'>
                     <FooterBottomElp />
                 </div>

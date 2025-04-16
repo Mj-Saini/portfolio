@@ -23,7 +23,7 @@ const HireResume = () => {
 
         <div className="flex flex-wrap max-[800px]:flex-col  ">
           <div className="sm:p-[30px] max-[800px]:w-full w-4/12 ">
-            <h1 className="text-[32px] lg:text-[40px] font-semibold text-white  ">
+            <h1 className="text-lg sm:text-[32px] lg:text-[40px] font-semibold text-white  ">
               Why hire me?
             </h1>
             <p className="text-base font-normal text-white/80 my-3 md:my-5 tracking-[2px] ">
