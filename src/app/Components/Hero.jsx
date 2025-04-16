@@ -30,7 +30,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="flex max-[420px]:flex-col gap-5 lg:gap-[29px] justify-center sm:justify-start  ">
-              <Link href="/assets/pdf/Manoj-resume.pdf" download className=" border border-[#15FFEA] p-[10px] min-[850px]:p-[10px_20px] flex items-center justify-center gap-1 min-[850px]:gap-[10px] rounded-[50px] max-sm:w-[200px] max-[460px]:m-auto duration-300 hover:duration-300 hover:bg-[#15FFEA]  group ">
+              <Link target="_blank" href="/assets/pdf/Manoj-resume.pdf" download className=" border border-[#15FFEA] p-[10px] min-[850px]:p-[10px_20px] flex items-center justify-center gap-1 min-[850px]:gap-[10px] rounded-[50px] max-sm:w-[200px] max-[460px]:m-auto duration-300 hover:duration-300 hover:bg-[#15FFEA]  group ">
                 <p className="text-center uppercase text-[#15FFEA] text-sm min-[850px]:text-base group-hover:text-black ">
                   Download cv
                 </p>
@@ -85,9 +85,9 @@ const Hero = () => {
                 key={i}
                 className=" max-[400px]:w-7/12 min-[400px]:w-4/12 sm:w-2/12 flex gap-[15px] items-center"
               >
-                <h1 className="max-[400px]:w-6/12 ff_roadRage text-5xl lg:text-[64px] font-normal text-[#FFFFFFCC] ">
+                <h1 className="max-[400px]:w-6/12 ff_roadRage text-5xl lg:text-[64px] font-normal text-[#FFFFFFCC] flex items-center gap-1" >
                   {" "}
-                  {item.numVal}{" "}
+                  {item.numVal} <span className="text-3xl">+</span>
                 </h1>
                 <p className="max-[400px]:w-6/12  text-sm lg:text-lg font-normal text-[#FFFFFFCC] ">
                   {" "}
