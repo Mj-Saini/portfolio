@@ -14,13 +14,13 @@ const AboutCard = () => {
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Name</p>
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Experience</p>
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Nationality</p>
-                        <p className='text-white font-normal text-lg tracking-[2px]  '>Freelance</p>
+                        {/* <p className='text-white font-normal text-lg tracking-[2px]  '>Freelance</p> */}
                     </div>
                     <div className=' flex flex-col gap-[30px]'>
                         <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '> Manoj Saini</p>
                         <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>2+ Years</p>
                         <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>Indian</p>
-                        <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>Available</p>
+                        {/* <p className='text-[#15FFEA] text-xl font-medium tracking-[2px]  '>Available</p> */}
                     </div>
                 </div>
 
