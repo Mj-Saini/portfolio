@@ -13,7 +13,7 @@ const EduCard = () => {
                 <div className='flex  '>
                     <div className='sm:w-6/12 ps-7 sm:px-[15px] relative roadmap_line sm:text-right '>
                         <div className='absolute top-0 max-sm:left-[0px] -right-[10px] max-sm:pt-7 '><RoadmapDot /> </div>
-                        <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2016</p>
+                        <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2018</p>
                         <div className='border-[2px] border-[#15FFEA] rounded-[20px] p-[10px_15px] bg-[#313131]'>
                             <p className='font-medium text-white text-xl mb-[10px]'>10th Grade</p>
                             <p className='text-sm text-white/80 tracking-[1px] font-normal'>Completed high school with a focus on Science and Mathematics.</p>
@@ -28,7 +28,7 @@ const EduCard = () => {
                         <div className='absolute top-0 max-sm:left-[0px] -right-[10px] max-sm:pt-7'><RoadmapDot /> </div>
                     </div>
                     <div className='sm:w-6/12 px-[15px] text-left'>
-                        <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2018</p>
+                        <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2020</p>
                         <div className='border-[2px] border-[#15FFEA] rounded-[20px] p-[10px_15px] bg-[#313131]'>
                             <p className='font-medium text-white text-xl mb-[10px]'>12th Grade</p>
                             <p className='text-sm text-white/80 tracking-[1px] font-normal'>Completed with a specialization in Science and Computer Applications.</p>
@@ -40,7 +40,7 @@ const EduCard = () => {
                 <div className='flex  '>
                     <div className='sm:w-6/12 ps-7 sm:px-[15px] relative roadmap_line sm:text-right '>
                         <div className='absolute top-0 max-sm:left-[0px] -right-[10px] max-sm:pt-7 '><RoadmapDot /> </div>
-                        <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2019</p>
+                        <p className='text-[#15FFEA] font-normal tracking-[2px] text-xl mb-[10px] max-sm:pt-7 '>2021</p>
                         <div className='border-[2px] border-[#15FFEA] rounded-[20px] p-[10px_15px] bg-[#313131]'>
                             <p className='font-medium text-white text-xl mb-[10px]'>Frontend Development Diploma</p>
                             <p className='text-sm text-white/80 tracking-[1px] font-normal'>Specialized in React.js, Next.js, JavaScript, HTML, CSS, and modern web design principles — with hands-on experience in Redux, Context API, REST APIs, Firebase, Supabase, and MongoDB. Skilled in building scalable, responsive UIs and dynamic frontend architectures.</p>
