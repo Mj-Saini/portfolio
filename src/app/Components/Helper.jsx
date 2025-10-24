@@ -77,13 +77,9 @@ export const HeroSecArr = [
 ];
 export const ExpCard = [
   {
-    Year: "2022 - 2025",
+    Year: "2022 - Present",
     course: "Frontend Developer",
     company: "Hexabirds Pvt. Ltd",
-  }, {
-    Year: "2025 - current",
-    course: "Freelance Frontend Developer",
-    company: "Freelance",
   }
 
 ];
@@ -113,10 +109,10 @@ export const SkillCardArr = [
     courseImg: <SkillCourseImg6 />,
     courseName: "Next. Js",
   },
-  {
-    courseImg: <SkillCourseImg7 />,
-    courseName: "Node. Js",
-  },
+  // {
+  //   courseImg: <SkillCourseImg7 />,
+  //   courseName: "Node. Js",
+  // },
   {
     courseImg: <SkillCourseImg8 />,
     courseName: "Tailwind. Css",
